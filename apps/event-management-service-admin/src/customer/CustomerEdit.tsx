@@ -26,6 +26,7 @@ export const CustomerEdit = (props: EditProps): React.ReactElement => {
         </ReferenceArrayInput>
         <TextInput label="First Name" source="firstName" />
         <TextInput label="LAst Name" source="lAstName" />
+        <TextInput label="Phone" source="phone" />
       </SimpleForm>
     </Edit>
   );
