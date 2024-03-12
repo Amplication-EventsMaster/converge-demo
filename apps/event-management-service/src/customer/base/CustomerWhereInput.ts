@@ -74,6 +74,17 @@ class CustomerWhereInput {
     nullable: true,
   })
   lAstName?: StringNullableFilter;
+
+  @ApiProperty({
+    required: false,
+    type: StringNullableFilter,
+  })
+  @Type(() => StringNullableFilter)
+  @IsOptional()
+  @Field(() => StringNullableFilter, {
+    nullable: true,
+  })
+  phone?: StringNullableFilter;
 }
 
 export { CustomerWhereInput as CustomerWhereInput };

@@ -8,4 +8,5 @@ export type CustomerWhereInput = {
   firstName?: StringNullableFilter;
   id?: StringFilter;
   lAstName?: StringNullableFilter;
+  phone?: StringNullableFilter;
 };

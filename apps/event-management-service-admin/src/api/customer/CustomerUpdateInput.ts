@@ -5,4 +5,5 @@ export type CustomerUpdateInput = {
   events?: EventUpdateManyWithoutCustomersInput;
   firstName?: string | null;
   lAstName?: string | null;
+  phone?: string | null;
 };
